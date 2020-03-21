@@ -12,10 +12,10 @@ def get_tof_statement() :
 def play_tof_quiz() :
 
     # get true or false statement
-    get_tof_statements = get_tof_statements()
+    tof_statements = get_tof_statements()
 
     # randomise tof statement 
-    random.shuffle (get_tof_statements)
+    random.shuffle (tof_statements)
 
     # set player score to 0
     score = 0
